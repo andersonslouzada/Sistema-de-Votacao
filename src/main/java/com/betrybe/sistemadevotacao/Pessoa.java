@@ -11,6 +11,7 @@ public abstract class Pessoa {
 
   /**
    * Getter nome.
+   *
    * @return the nome
    */
   public String getNome() {
@@ -19,6 +20,7 @@ public abstract class Pessoa {
 
   /**
    * Setter nome.
+   *
    * @param nome the nome
    */
   public void setNome(String nome) {

@@ -9,6 +9,7 @@ public class PessoaCandidata extends Pessoa {
 
   /**
    * Instantiates a new Pessoa candidata.
+   *
    * @param nome   the nome
    * @param numero the numero
    */
@@ -29,6 +30,7 @@ public class PessoaCandidata extends Pessoa {
 
   /**
    * Setter numero.
+   *
    * @param numero the numero
    */
   public void setNumero(int numero) {
@@ -37,6 +39,7 @@ public class PessoaCandidata extends Pessoa {
 
   /**
    * Getter votos.
+   *
    * @return the votos
    */
   public int getVotos() {
