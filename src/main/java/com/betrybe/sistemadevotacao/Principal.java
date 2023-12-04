@@ -39,7 +39,7 @@ public class Principal {
         eleitor = true;
       }
     }
-    
+
     while (eleitor) {
       System.out.println("Cadastrar pessoa eleitora?");
       System.out.println("1 - Sim");
@@ -82,6 +82,8 @@ public class Principal {
         case 3:
           gerenciamentoVotacao.mostrarResultado();
           votacao = false;
+          break;
+        default:
           break;
       }
     }
