@@ -16,8 +16,8 @@ public class GerenciamentoVotacao implements GerenciamentoVotacaoInterface {
       if (numero == candidato.getNumero()) {
         System.out.println("Número da pessoa candidata já utilizado!");
       } else {
-        PessoaCandidata NovoCandidato = new PessoaCandidata(nome, numero);
-        pessoasCandidatas.add(NovoCandidato);
+        PessoaCandidata novoCandidato = new PessoaCandidata(nome, numero);
+        pessoasCandidatas.add(novoCandidato);
       }
     }
 
